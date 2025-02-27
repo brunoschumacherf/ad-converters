@@ -53,4 +53,37 @@ Na primeira utilização, ajuste os valores do joystick para garantir precisão:
 
 ---
 
+## ⚙️ Instalação e Execução
+
+### 1️⃣ Configuração do Ambiente
+- Certifique-se de que o **Pico SDK** está instalado corretamente.
+- Instale as dependências necessárias para a compilação.
+
+### 2️⃣ Clonando o Repositório
+
+```bash
+git clone https://github.com/brunoschumacherf/ad-converters
+```
+
+### 3️⃣ Compilação e Envio do Código
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
+```
+
+Após a compilação, copie o arquivo `.uf2` gerado para o **Raspberry Pi Pico** (modo bootloader ativado).
+
+---
+
+## 📁 Entregáveis
+
+- **Código-fonte** disponível neste repositório.
+- **Vídeo demonstrativo:** [Aguardando link]()
+
+---
+
+🔹 _Desenvolvido por **Bruno Schumacher**_
 
